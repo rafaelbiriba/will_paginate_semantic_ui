@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'will_paginate_semantic_ui', path: "../../"
+gem 'sinatra'
+gem 'will_paginate'

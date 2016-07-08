@@ -23,9 +23,29 @@ As easy as `gem install will_paginate_semantic_ui` or add `gem "will_paginate_se
 
 ### Rails
 
-You need to use another render in the will paginate command:
+In your paginated view, you need to use another render in the will paginate command:
 
 `<%= will_paginate @collection, renderer: WillPaginateSemanticUi::Renderer %>`
+
+### Sinatra
+
+ `require "will_paginate_semantic_ui"` in your Sinatra app.
+
+In your paginated view, you need to use another render in the will paginate command:
+
+`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::Renderer %>`
+
+**Look the example implementation at** `docs/sinatra_example`
+
+![Example](https://raw.githubusercontent.com/rafaelbiriba/will_paginate_semantic_ui/master/docs/example_sinatra.png)
+
+To run the example:
+
+```
+cd docs/sinatra_example
+bundle install
+rackup
+```
 
 ## Tuning
 
