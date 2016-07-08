@@ -9,6 +9,11 @@ GEM
   specs:
     byebug (9.0.5)
     diff-lcs (1.2.5)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
     rake (11.2.2)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
@@ -31,6 +36,7 @@ PLATFORMS
 DEPENDENCIES
   bundler
   byebug
+  nokogiri
   rake
   rspec
   will_paginate_semantic_ui!
