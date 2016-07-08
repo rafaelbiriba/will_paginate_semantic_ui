@@ -1,6 +1,6 @@
 # Will Paginate for Semantic UI
 
-[![Gem Version](https://badge.fury.io/rb/will_paginate_semantic_ui.svg)](http://badge.fury.io/rb/will_paginate_semantic_ui) [![Code Climate](https://codeclimate.com/github/rafaelbiriba/will_paginate_semantic_ui/badges/gpa.svg)](https://codeclimate.com/github/rafaelbiriba/will_paginate_semantic_ui) [![Travis](https://api.travis-ci.org/rafaelbiriba/will_paginate_semantic_ui.svg?branch=master)](https://travis-ci.org/rafaelbiriba/will_paginate_semantic_ui) [![Coverage Status](https://coveralls.io/repos/rafaelbiriba/will_paginate_semantic_ui/badge.svg?branch=master)](https://coveralls.io/r/rafaelbiriba/will_paginate_semantic_ui?branch=master)
+![Gem Version](https://img.shields.io/gem/v/will_paginate_semantic_ui.svg?style=flat-square) [![Code Climate](https://img.shields.io/codeclimate/github/rafaelbiriba/will_paginate_semantic_ui.svg?style=flat-square)](https://codeclimate.com/github/rafaelbiriba/will_paginate_semantic_ui) [![Coverage Status](https://img.shields.io/coveralls/rafaelbiriba/will_paginate_semantic_ui/master.svg?style=flat-square)](https://coveralls.io/r/rafaelbiriba/will_paginate_semantic_ui?branch=master) [![Travis](https://img.shields.io/travis/rafaelbiriba/will_paginate_semantic_ui/master.svg?style=flat-square)](https://travis-ci.org/rafaelbiriba/will_paginate_semantic_ui)
 
 #### If you are using [Will Paginate gem](https://github.com/mislav/will_paginate) and [Semantic UI framework](http://semantic-ui.com/), this gem is WHAT YOU NEED!
 
