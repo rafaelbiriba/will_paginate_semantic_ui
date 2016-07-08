@@ -8,8 +8,38 @@ The html snippet for pagination that the `will_paginate` creates is incompatible
 
 This gem solves this problem with a custom render that creates the correct pagination html for the component.
 
+![Example](https://raw.githubusercontent.com/rafaelbiriba/will_paginate_semantic_ui/master/docs/example1.png)
+![Example](https://raw.githubusercontent.com/rafaelbiriba/will_paginate_semantic_ui/master/docs/example2.png)
+
+## Requirements
+
+Semantic UI `> 2.0` and will_paginate `> 3.0`
+
 ## Installation
 
-As easy as `gem install will_paginate_semantic_ui`
+As easy as `gem install will_paginate_semantic_ui` or add `gem "will_paginate_semantic_ui"` to your Gemfile
 
-or add `gem "will_paginate_semantic_ui"` to your Gemfile
+## How to use
+
+### Rails
+
+You need to use another render in the will paginate command:
+
+`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::Renderer %>`
+
+## Tuning
+
+You can also use some will_pagination options to customize your component:
+
+`<%= will_paginate @archived_medias, renderer: WillPaginateSemanticUi::Renderer, class: "right floated", inner_window: 3 %>
+`
+
+The command above create this
+
+![Example](https://raw.githubusercontent.com/rafaelbiriba/will_paginate_semantic_ui/master/docs/example1.png)
+
+`inner_window: 3` as you see above, 3 pages to the left and to the right from the selected page. (This creates a component with 700px max width in the worst case)
+
+![Example](https://raw.githubusercontent.com/rafaelbiriba/will_paginate_semantic_ui/master/docs/example3.png)
+
+`class: "right floated"` useful if you are using inside a table. Floats the pagination to the right.
