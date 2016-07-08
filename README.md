@@ -4,7 +4,7 @@
 
 #### If you are using [Will Paginate gem](https://github.com/mislav/will_paginate) and [Semantic UI framework](http://semantic-ui.com/), this gem is WHAT YOU NEED!
 
-The html snippet for pagination that the `will_paginate` creates is incompatible with the semantic ui component.
+The html snippet for pagination that `will_paginate` creates is incompatible with the semantic ui.
 
 This gem solves this problem with a custom render that creates the correct pagination html for the component.
 
@@ -31,7 +31,7 @@ You need to use another render in the will paginate command:
 
 You can also use some will_pagination options to customize your component:
 
-`<%= will_paginate @archived_medias, renderer: WillPaginateSemanticUi::Renderer, class: "right floated", inner_window: 3 %>
+`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::Renderer, class: "right floated", inner_window: 3 %>
 `
 
 The command above create this
