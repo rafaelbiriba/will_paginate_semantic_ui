@@ -25,7 +25,7 @@ As easy as `gem install will_paginate_semantic_ui` or add `gem "will_paginate_se
 
 In your paginated view, you need to use another render in the will paginate command:
 
-`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::Renderer %>`
+`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::ActionView::Renderer %>`
 
 ### Sinatra
 
@@ -33,7 +33,7 @@ In your paginated view, you need to use another render in the will paginate comm
 
 In your paginated view, you need to use another render in the will paginate command:
 
-`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::Renderer %>`
+`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::Sinatra::Renderer %>`
 
 **Look the example implementation at** `docs/sinatra_example`
 
@@ -51,7 +51,7 @@ rackup
 
 You can also use some will_pagination options to customize your component:
 
-`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::Renderer, class: "right floated", inner_window: 3 %>
+`<%= will_paginate @collection, renderer: WillPaginateSemanticUi::ActionView::Renderer, class: "right floated", inner_window: 3 %>
 `
 
 The command above create this

@@ -18,7 +18,7 @@ class SinatraAPP < Sinatra::Base
     </head>
     <body>
     <h1>Sinatra Example for will_paginate_semantic_ui</h1>
-    <%= will_paginate @collection, renderer: WillPaginateSemanticUi::Renderer %>
+    <%= will_paginate @collection, renderer: WillPaginateSemanticUi::Sinatra::Renderer %>
     </body>
     </html>
     EOHTML
