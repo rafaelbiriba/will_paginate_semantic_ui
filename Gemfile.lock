@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    will_paginate_semantic_ui (2.0.1)
+    will_paginate_semantic_ui (2.1.0)
       will_paginate (> 3.0.0)
 
 GEM
@@ -60,4 +60,4 @@ DEPENDENCIES
   will_paginate_semantic_ui!
 
 BUNDLED WITH
-   1.12.5
+   1.14.4
