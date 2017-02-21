@@ -20,8 +20,11 @@ module WillPaginateSemanticUi
 
     def previous_or_next_page(page, classname)
       classLink = "icon item"
-      classLink += " disabled" if !page
-      link(tag("i", "", class: "#{classname} chevron icon"), page, {class: classLink})
+      unless page
+        tag(:a, tag("i", "", class: "#{classname} chevron icon"), class: classLink + " disabled")
+      else
+        link(tag("i", "", class: "#{classname} chevron icon"), page, {class: classLink})
+      end
     end
 
     def gap
