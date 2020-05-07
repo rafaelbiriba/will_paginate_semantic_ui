@@ -4,7 +4,7 @@ module WillPaginateSemanticUi
 
     def to_html
       list_items = pagination.map do |item|
-        item.class == Fixnum ? page_number(item) : send(item)
+        item.class == Integer ? page_number(item) : send(item)
       end.join(@options[:link_separator])
 
       tag("div", list_items, class: ul_class)
