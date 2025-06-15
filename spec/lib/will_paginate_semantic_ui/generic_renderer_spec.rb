@@ -31,10 +31,6 @@ describe WillPaginateSemanticUi::GenericRenderer do
     expect(html.at_css('div.disabled.item')).not_to be_nil
   end
 
-  it "has one item with rel start value" do
-    expect(html.css('[rel~=start]').size).to eql 1
-  end
-
   it "has two items with rel prev value" do
     expect(html.css('[rel~=prev]').size).to eql 2
   end

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.1
+
+  - Fixes the deprecated Fixnum class
+
 ## 2.1.0
 
   - Avoid creation of `/false` links when that page not exists. (For more details: https://github.com/rafaelbiriba/will_paginate_semantic_ui/pull/1 )
